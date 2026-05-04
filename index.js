@@ -5,9 +5,9 @@ function validateEmail(email) {
 
     const isValid = validator.isEmail(email);
     if (isValid) {
-        console.log(chalk.green('${email} est valide'))
+        console.log(chalk.green(`${email} est valide`))
     } else {
-        console.log(chalk.red('${email} est mal formaté'))
+        console.log(chalk.red(`${email} est mal format`))
     }
 }
 const emailsToTest = [
