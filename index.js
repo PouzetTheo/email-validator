@@ -10,9 +10,10 @@ function validateEmail(email) {
         console.log(chalk.red(`${email} est mal format`))
     }
 }
-// commentaire 2 : rennomage de variable
-const emails = [
-'test@example.com',
+// liste des mail à tester
+
+const emailsToTest = [
+    'test@example.com',
     'pas-un-email.fr',
     'user.name@domain.co',
     'mauvais@format',
